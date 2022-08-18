@@ -1,0 +1,31 @@
+Q1) Write the difference between JRE, JDK and JVM?
+
+JRE (Java Runtime Environment)
+JRE is an implementation of Jvm . with JRE we execute code in any operating System and JRE contains libraries and other files.
+
+JDK (Java Development Kit)
+This JDK software is used for developing and executing Java applications. This JDK contains JRE and  Development tools like java compiler, debugger, etc.
+
+JVM (Java Virtual Machine)
+JVM will help to convert java byte-code to understand all Operating System.with this architecture only, our java applications are portable or platform-independent.
+
+Q2) Write the difference between JSE, JEE and JME?
+
+ Java Standard Edition (JSE) : this is a core java platform which contains the core libraries to develop standalone, networking, database, GUI, multithreaded types of applications. the Java SE platform consists of the virtual machine, Day1: Java Introduction 2 development tools, deployment technologies and other class libraries and toolkit commonly used in Java application
+
+Java Enterprise Edition (JEE) : it provides the api and runtime environment for developing and running large scale application, multi-tiered, scalable, reliable, and secure network applications. 
+Java Micro Edition (JME): It is a subset of Java SE, designed for microdevices and embedded development .
+
+Q3) How does java achieve platform independency?
+
+Java  is platform independent in that the Java source  code will be converted into byte-code and  we can execute code in any operating System . Write Once and Run Anywhere(WORA)
+
+
+Q4) What are features of Java and explain them?
+
+OOPs
+Simple
+platform independency and portable
+Secure 
+Multithreaded
+Robust

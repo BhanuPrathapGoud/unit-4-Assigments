@@ -1,0 +1,24 @@
+Q2) Why String is immutable in java and what is the difference between String and String Builder? And
+write some of the methods of String class at least 5 with example.
+Ans:-
+
+    java uses the String literal.for Suppose there are 5variables are referred to one string
+     by change one variable string  it will effect remaining variables thats why String is immutable in java.
+
+     String:-
+     String Performance slow as compare to String Builder.
+     String is immutable in java.
+     String required more memory.
+
+     String Builder:-
+     String Builder Performance fast as compare to String Builder.
+     String Builder is mutable in java.
+     String Builder required less memory.
+
+     methods of String class:-
+     .charAt(int i);
+     .length();
+     .substring (int i);
+      .substring (int i, int j);
+      .toUpperCase();
+

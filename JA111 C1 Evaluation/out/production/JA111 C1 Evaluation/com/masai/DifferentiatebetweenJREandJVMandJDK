@@ -1,0 +1,10 @@
+Q1) Differentiate between JRE,JVM and JDK?
+
+JRE (Java runtime environment);
+it is helps to run JVM and java library it send code to JDK.
+this JRE is present in all operating Systems
+JVM(java virtual machine);
+it is to convert java file to bytecode to execute in any operating System like Window,mac,linux
+JDK(java Development kit);
+JDK will run this java file in in all operating Systems.
+JDK contains collection of frame works and library .it run combination of frame works and library

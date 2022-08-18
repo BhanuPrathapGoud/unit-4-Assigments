@@ -1,0 +1,49 @@
+Question 2:
+Explain the difference between overloading and overriding methods with an example?
+
+Method overloading:-
+    it declaring same method  with different operation.
+    the first priority of calling method with same is size of arguments;
+    the second one is type of arguments which passing to method;
+    And near to that object.
+
+    Examples:-
+
+    class Car{
+    String name;
+        public void main name(){ // method with zero arguments;
+            name = "Honda"
+            system.out.println(name)
+        }
+        public void main name(name){ // method with one String arguments;
+                    this.name = name
+                    system.out.println(name)
+         }
+         public void main name(name,cost){ // method with different String arguments;
+                this.name = name
+                system.out.println(name)
+                system.out.println(cost)
+          }
+    }
+ ----------------------------------------------------------------------------------------------------------------------
+
+ Method overriding:-
+
+ it is over writing the method or action from lower casting to upper casting and upper casting to lower casting
+ for this method super key word use to change the method
+
+     class Car{
+        String name;
+            public void main name(){ // method with zero arguments
+                system.out.println("I am Car")
+            }
+
+        }
+
+     class Honda extends Car{
+        String name;
+            public void main name(){ // hear the name method has changed in subclass
+                system.out.println("I am Honda car")
+            }
+
+        }

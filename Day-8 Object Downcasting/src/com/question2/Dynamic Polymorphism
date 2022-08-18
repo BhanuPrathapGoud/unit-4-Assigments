@@ -1,0 +1,41 @@
+Q2) Explain dynamic polymorphism ?
+
+Dynamic Polymorphism is the process to achieve the overridden method on runtime not rather then compile time.
+Dynamic Polymorphism polymorphism achieve by method overriding.
+
+Ex : -
+
+ take a two class;
+ one is Bird and another is Parrot
+
+ Class Bird{
+ //this is parent method
+    public void fly(){
+            System.out. println("Bird is flying");
+    }
+ }
+ inheritance Bird by parrot
+
+  Class Parrot extends Bird{
+    //Hear we can see the fly method is overridden
+     public void fly(){
+         System.out. println("Bird is Landing");
+     }
+     //this is child method
+     public void sing(){
+              System.out. println("Bird is Landing");
+     }
+
+  }
+
+  public class Main {
+      public static void main(String[] args){
+          Bird b1 = new Parrot();
+          b1.fly();
+          //when we call the fly method we can achieve the over ridden method
+          Parrot b2 = (Parrot)b1;
+         // to achieve the more methods from the child we have to do Down casting
+          b2.sing();
+      }
+
+  }

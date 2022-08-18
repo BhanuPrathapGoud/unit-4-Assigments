@@ -1,0 +1,33 @@
+
+
+Q4 What is instance of operator explain with an example
+
+instanceof : -
+
+We can use the instanceof operator to check if objects of the subclass is  an instance of the superclass.
+ For example:
+
+
+
+
+class Animal {
+    String name;
+}
+
+class Dog extends Animal {
+    String sound = "BOW";
+}
+
+class Main {
+  public static void main(String[] args) {
+
+    // create an object of the subclass
+    Dog d1 = new Dog();
+
+    // checks if d1 is an instance of the subclass
+    System.out.println(d1 instanceof Dog);        // prints true
+
+    // checks if d1 is an instance of the superclass
+    System.out.println(d1 instanceof Animal);     // prints true
+  }
+}

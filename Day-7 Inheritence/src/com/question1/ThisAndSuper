@@ -1,0 +1,56 @@
+Q1)What is the use of ‘this’ and ‘super’ keywords in java ?
+explain with an example.
+
+This :-
+    "This" is reference variable that refers to the current object.
+    this keyword can be used to refer current class instance variable and
+     this keyword can also be used to return the current class instance.
+
+    examples:-
+     public class Student {
+     //instance variable
+         int roll;
+         String name;
+         String address;
+         int marks;
+
+         Student(){
+            this.Student(String str);
+         }
+         Student(String str){
+             this;
+          }
+
+         public void getData(int roll,String name,String address,int marks){
+         //here This keyword refer to instance variable
+            this.roll=roll;
+            this.name=name;
+            this.address address;
+            this.marks = marks;
+         }
+
+     }
+
+
+Super:-
+It is used to access members of the base class.
+super() is used to invoke immediate parent class method.
+
+example:-
+
+class car{
+    test(){
+    sout("I am car");
+    }
+}
+class Honda extends car{
+    test(){
+        if(check == true){
+        test.super()
+        }
+        else{
+        sout("I am honda")
+     }
+
+}
+

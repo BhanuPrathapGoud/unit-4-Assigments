@@ -1,0 +1,24 @@
+Differentiate between static and non-static variables?
+
+
+Static variables :
+ variables which is created on ram static part.
+ it was in side class with static keyword.
+ this variables can use any static methods.
+ this are single variables/method object
+
+ non Static variables :
+ this variables are loaded in ram hook storage.
+ this are not loaded until we call this variables.
+ in class by  non Static variables we can create multiple objects.
+
+
+
+ example :
+ //non static
+        String name;
+     boolean isHungry;
+     int age;
+
+     //static
+     static int totalDeaths;
